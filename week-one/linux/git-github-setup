@@ -43,7 +43,26 @@
   git remote add origin git@github.com:alam-rijwan/90daysdevops-chalenges.git
   git push -u origin main
 
+### Congratulations! You have successfully set up Git and GitHub on your Linux system.
 
+# NOTE:
+'''rijwan@devops-linux:~/Documents/90days-devops-chalenges/week-one$ git push -u origin main
+To github.com:alam-rijwan/90daysdevops-chalenges.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:alam-rijwan/90daysdevops-chalenges.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'''
+
+# if you face above issue while pushing code to github repo, then follow below steps
+
+  git pull origin main --rebase
+  git add .
+   git commit -m "your commit message"    
+
+  git push -u origin main
 
 
 
