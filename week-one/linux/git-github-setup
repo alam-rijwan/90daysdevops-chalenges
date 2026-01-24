@@ -22,24 +22,7 @@
 
   # Generate ssh keys 
    ssh-keygen -t ed25519 -C "your.email@example.com" # next pess enter ,enter, enter
-
-# github test
-echo "# 90daysdevops-chalenges" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:alam-rijwan/90daysdevops-chalenges.git
-git push -u origin main
-
-
-
-
-
-
-
-
-  # Copy your generated ssh keys from "ssh-ed25519 to email-id"
+# Copy your generated ssh keys from "ssh-ed25519 to email-id"
 
    cat ~/.ssh/id_ed25519.pub
 
@@ -50,6 +33,24 @@ git push -u origin main
 
     ssh -T git@github.com
 
+
+# github test
+  echo "# 90daysdevops-chalenges" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin git@github.com:alam-rijwan/90daysdevops-chalenges.git
+  git push -u origin main
+
+
+
+
+
+
+
+
+ 
 
 
 
