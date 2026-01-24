@@ -1,0 +1,43 @@
+# git installation
+
+   sudo apt install git
+
+# check version
+   git --version
+
+# git user-creation
+
+  git config --global user.name "Your Name" # set your name
+
+  git config --global user.email "your.email@example.com" # set your email
+
+  git config --list # You can verify your configuration by listing all your settings
+
+ # OR check individual setting
+  
+   git config --get user.name
+   git config --get user.email
+
+# GitHub Setup
+
+  # Generate ssh keys 
+   ssh-keygen -t ed25519 -C "your.email@example.com" # next pess enter ,enter, enter
+
+  # Copy your generated ssh keys from "ssh-ed25519 to email-id"
+
+   cat ~/.ssh/id_ed25519.pub
+
+# Next go go github profile- setting - ssh - newssh- past copy keys
+
+  # test your ssh connection
+
+
+    ssh -T git@github.com
+
+
+
+
+
+
+
+

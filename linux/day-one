@@ -1,0 +1,69 @@
+What is Linux?
+
+Ans : Linux is
+a free, open-source operating system (OS) based on Unix, designed to manage computer hardware and software resources.
+ Originally created by Linus Torvalds in 1991.
+
+Feature of linux:
+
+Linux has a bunch of standout features that make it popular for servers, developers, and everyday users alike. Here’s a clear, no-fluff breakdown 👇
+
+### 🐧 Key Features of Linux
+
+#1. Open Source**
+
+- The source code is freely available.
+- Anyone can view, modify, and distribute it.
+- Backed by huge communities and companies (Red Hat, Canonical, Google, etc.).
+
+#2. Multiuser**
+
+- Multiple users can work on the system at the same time.
+- Strong permission and ownership system keeps users isolated and secure.
+
+#3. Multitasking**
+
+- Runs many processes simultaneously without slowing down easily.
+- Great for servers and heavy workloads.
+
+#4. Security**
+
+- Fewer viruses compared to other OSes.
+- Strong file permissions, SELinux/AppArmor, firewalls.
+- Regular updates from trusted repositories.
+
+#5. Stability & Reliability**
+
+- Systems can run for months or years without rebooting.
+- Widely used in servers, supercomputers, and cloud infrastructure.
+
+#6. Portability**
+
+- Runs on many architectures: PCs, servers, ARM devices, Raspberry Pi, even mainframes.
+
+#7. Command Line Power**
+
+- Powerful shell (Bash, Zsh, etc.) for automation and scripting.
+- Makes admin and development tasks fast and efficient.
+
+#8. Customization**
+
+- Highly customizable desktop environments (GNOME, KDE, XFCE, etc.).
+- You can tailor everything—from the UI to the kernel.
+
+#9. Software Management**
+
+- Package managers (APT, YUM, DNF, Pacman) make installing/updating software easy and safe.
+
+#10. Networking Capabilities**
+
+- Built-in support for networking and server tools.
+- Commonly used for web servers, databases, and networking devices.
+
+#11. Free (Mostly)**
+
+- Most distributions are completely free.
+- Paid options exist for enterprise support, not for usage.
+
+
+
