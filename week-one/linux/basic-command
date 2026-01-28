@@ -1,15 +1,39 @@
-# lear bacic command
+ # bacic command
+## presenst working directories
+ pwd
+  
+## Change directories 
+ cd
+## list file or directories
+ ls (-a, -ltr)
 
-## pwd
-## df -h
-## cd
-## cp
-## mkdir
-## rm 
-## rm -r
-## mv
-## top
-## free
-## touch
+## make Directoris
+ mkdir
+## crete a empty file
+ touch
+ 
+## print file of content
+  cat
+
+## copy file
+ cp
+
+
+## move file/folder or rename
+
+ mv
+
+## remove file or directories
+  rm (-r,-rf, rmdir)
+## Real-time proccess monitoring
+ top
+
+# SOFTLINK / HARDLINK
+  ###Softling : if source file is deleted then softlink-file also deleted'''
+
+ln -s /home/rijwan/Cloud/demo.txt softlinf-file
+## HARDLINK
+   ### if source file deleted then hardlink-file remain
+ ln /home/rijwan/Cloud/demo.txt hardlink-file
 
 
