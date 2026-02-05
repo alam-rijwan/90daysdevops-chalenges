@@ -37,3 +37,123 @@ ln -s /home/rijwan/Cloud/demo.txt softlinf-file
  ln /home/rijwan/Cloud/demo.txt hardlink-file
 
 
+# Connet linux -nstances through ssh client
+   step1. go to private key folder/directories
+   step2. to run this command  to ensure your key not publicaliy viewable
+     ## chmod 400 linux-key.pem
+   step3. connet to instances
+     
+     ## ssh -i "<key-name>" "<user-name>"@<public-DNS>
+     
+# Disk use commands:
+
+ 1. df -h   # show disk spaces
+
+ 2. du      #show directory size
+
+ 
+ ## process:
+  1. ps       # view running processes
+
+  2. top      # real time process monitoring
+
+  3. fuser    # identify process using a file
+ 
+  4. kill     # TErminate a process
+
+  5. nohup    # run process in background
+
+  6. free    # memory usege
+
+  7. vmstat  # system process stats
+   
+  8. head -n 5 <file-name>   # show first 5 lines
+
+  9. tail -n 5 <file-name>   # show last 5 lines 
+  
+  
+#  system level commands:
+   
+   1. uname -a    # show system and kernal information
+   
+   2. uptime     # Display how long the system has been running
+   
+   3. date      # show current system date & time
+
+   4. who       # List all user currently logged in
+
+   5. whoami    # show the current logged-in user
+
+   6. which     # display the path of the command
+
+   7. id        # shows the user ID, Group ID  &  Group
+  
+   8. sudo      # run command with root privileges
+
+   9. shutdown   # safely power off the system
+
+   10. reboot    # restart the linux system
+
+
+# User and Group managements Commands:
+
+  1. useradd    # create a new user
+   ## sudo useradd -m tonny
+
+  2. su         # switch user
+     
+  3. passwd     # set or changes the password of a user
+    ## sudo passwd <USER_NAME>
+
+  4. userdel    # delete user
+
+  5. groupadd   # create a new group
+    ## sudo groupadd devloper 
+
+  6. gpasswd -a  # add user to group
+   ## sudo gpasswd -a tonny <GROUP_NAME>
+
+  7. gpasswd -d   # remove a user from group
+
+  8. groupdel    # delete group
+  
+
+#NOTE: 
+    ## to check user or group created or not (add)
+
+ cat/etc/passwd
+  
+ cat/etc/group
+
+
+
+# File  permission commmand:
+  1. ls -l
+  2. unmask
+  3. chmod
+  4. chown
+  5. chgrp
+
+
+
+# networking Commmands:
+   1. ping
+   2. netstat
+   3. ifconfig
+   4. traceroute
+   5. tracepath
+   6. mtr
+   7. nslookup
+   8. hostname
+   9. telnet
+   10 whois
+   11. curl
+   12. wget
+
+  
+    
+
+
+
+
+
